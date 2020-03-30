@@ -251,7 +251,7 @@ section.more_about div{
     font-weight: 700;
     cursor: pointer;
 }
-.footer_column ul li:hover{
+.footer_column ul li:hover:not(.column_title){
     text-decoration: underline;
 }
 .footer_column ul li.column_title{
