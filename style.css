@@ -33,7 +33,7 @@ button:hover{
     color: hsl(256, 26%, 20%);
     background-color: hsl(0, 0%, 98%);
 }
-h1{
+h1, h4{
     font-size: 72px;
     font-family: 'DM Serif Display', serif;
     font-weight: lighter;
