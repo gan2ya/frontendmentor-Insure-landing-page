@@ -231,10 +231,7 @@ section.more_about div{
    
     fill:#000;
 }
-svg {
-    width: 70px;
-    height: 70px;
-  }
+
 .footer_column{
     display: flex;
     justify-content: flex-start;
@@ -253,6 +250,9 @@ svg {
     margin-bottom: 15px;
     font-weight: 700;
     cursor: pointer;
+}
+.footer_column ul li:hover{
+    text-decoration: underline;
 }
 .footer_column ul li.column_title{
     color:hsl(273, 4%, 51%);
