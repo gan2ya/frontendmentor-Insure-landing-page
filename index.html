@@ -22,18 +22,27 @@
     <div class="container">
       <nav>
         <img src="./images/logo.svg" alt="">
+        <button class="hamburger show" id="hamburger"><img src="./images/icon-hamburger.svg" alt=""></button>
+        <button class="close" id="close"><img src="./images/icon-close.svg" alt=""></button>
+        <div class="ul_mobile hide" id="ul_mobile" >
         <ul>
           <li><a>How we work</a></li>
           <li><a>Blog</a></li>
           <li><a>Account</a></li>
           <li class="shift"><a>View plans</a></li>
         </ul>
+        <img class="pattern_nav" src="./images/bg-pattern-mobile-nav.svg" alt="">
+      </div>
       </nav>
     </div>
     <div class="container intro">
       <img class="pattern_right" src="./images/bg-pattern-intro-right-desktop.svg" alt="">
       <img class="pattern_left" src="./images/bg-pattern-intro-left-desktop.svg" alt="">
+      <img class="pattern_right_mobile" src="./images/bg-pattern-intro-right-mobile.svg" alt="">
+      <img class="pattern_left_mobile" src="./images/bg-pattern-intro-left-mobile.svg" alt="">
       <div class="intro_content">
+        <div class="intro_right"><img src="./images/image-intro-desktop.jpg" alt="image-intro-desktop">
+        </div>
         <div class="intro_left">
           <h1>Humanizing your insurance.</h1>
           <p>Get your life insurance coverage easier and faster. We blend our expertise 
@@ -42,7 +51,7 @@
           </p>
           <button>View plans</button>
         </div>
-        <div class="intro_right"><img src="./images/image-intro-desktop.jpg" alt="image-intro-desktop"></div> 
+         
       </div>
     </div>
   </header>
@@ -76,6 +85,7 @@
       </section>
       <section class="more_about">
         <img class="pattern_footer" src="./images/bg-pattern-how-we-work-desktop.svg" alt="pattern">
+        <img class="pattern_footer_mobile" src="./images/bg-pattern-how-we-work-mobile.svg" alt="pattern">
                
         <div><h2>Find out more about how we work</h2></div>
         <button>How we work</button>
@@ -123,10 +133,10 @@
       </div>
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">Hanna</a>.
       </div>
     </div>
   </footer>
-
+<script src="./index.js"></script>
 </body>
 </html>
